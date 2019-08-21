@@ -19,7 +19,7 @@ namespace ShopApp.Model
         public Nullable<int> ClientsID { get; set; }
         public Nullable<int> Amount { get; set; }
         public Nullable<System.DateTime> BuyDate { get; set; }
-        public Nullable<double> Price { get; set; }
+        public Nullable<decimal> Price { get; set; }
     
         public virtual Clients Clients { get; set; }
         public virtual Products Products { get; set; }

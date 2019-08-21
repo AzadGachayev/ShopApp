@@ -16,3 +16,4 @@ C:\Users\Lenovo\source\repos\ShopApp\ShopApp\bin\Debug\EntityFramework.SqlServer
 C:\Users\Lenovo\source\repos\ShopApp\ShopApp\obj\Debug\ShopApp.csproj.CopyComplete
 C:\Users\Lenovo\source\repos\ShopApp\ShopApp\obj\Debug\ShopApp.Login.resources
 C:\Users\Lenovo\source\repos\ShopApp\ShopApp\obj\Debug\ShopApp.Dashboard.resources
+C:\Users\Lenovo\source\repos\ShopApp\ShopApp\obj\Debug\ShopApp.AdminPanel.resources

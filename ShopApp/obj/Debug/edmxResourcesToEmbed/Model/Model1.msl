@@ -12,6 +12,7 @@
     <EntitySetMapping Name="Clients">
       <EntityTypeMapping TypeName="ProductsModel.Clients">
         <MappingFragment StoreEntitySet="Clients">
+          <ScalarProperty Name="Status" ColumnName="Status" />
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="Fullname" ColumnName="Fullname" />
           <ScalarProperty Name="Email" ColumnName="Email" />

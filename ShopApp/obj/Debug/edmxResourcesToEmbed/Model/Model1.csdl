@@ -18,6 +18,7 @@
     <Property Name="Password" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
     <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
     <NavigationProperty Name="Orders" Relationship="Self.FK_Orders_Clients" FromRole="Clients" ToRole="Orders" />
+    <Property Name="Status" Type="Byte" />
   </EntityType>
   <EntityType Name="Orders">
     <Key>
@@ -28,7 +29,7 @@
     <Property Name="ClientsID" Type="Int32" />
     <Property Name="Amount" Type="Int32" />
     <Property Name="BuyDate" Type="DateTime" Precision="3" />
-    <Property Name="Price" Type="Double" />
+    <Property Name="Price" Type="Decimal" Precision="18" Scale="0" />
     <NavigationProperty Name="Clients" Relationship="Self.FK_Orders_Clients" FromRole="Orders" ToRole="Clients" />
     <NavigationProperty Name="Products" Relationship="Self.FK_Orders_Products" FromRole="Orders" ToRole="Products" />
   </EntityType>
